@@ -26,6 +26,7 @@ Focuses on clean code, reproducibility, and clear experiment tracking.
 - `tests/`: unit tests  
 - `Dockerfile`: container for inference  
 
+```
 Fruits-Vegetables-Classification/
 ├── data/
 │   ├── raw/                    # original dataset
@@ -45,7 +46,7 @@ Fruits-Vegetables-Classification/
 ├── requirements.txt
 ├── README.md
 └── LICENSE
-
+```
 
 ---
 
