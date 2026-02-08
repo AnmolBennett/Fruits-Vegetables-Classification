@@ -2,7 +2,7 @@
 
 A production-ready Python project that trains, evaluates, and serves a CNN classifier to distinguish fruits vs vegetables from images.
 
-This repo demonstrates:
+This repo demonstrates:<br><br>
 ✅ dataset preprocessing & augmentation  
 ✅ modular PyTorch model training  
 ✅ performance evaluation with metrics & confusion matrix  
@@ -14,6 +14,17 @@ This repo demonstrates:
 ## 🧠 Overview
 Computer vision model built using PyTorch to classify images into fruit or vegetable categories.  
 Focuses on clean code, reproducibility, and clear experiment tracking.
+
+---
+
+## 📊 Dataset
+
+- Images categorized into fruit and vegetable classes
+- Dataset organized using folder-based class labels
+- Standard train/validation split
+- Basic augmentations applied (resize, normalization)
+
+Note: Dataset is not included in the repo due to size constraints.
 
 ---
 
