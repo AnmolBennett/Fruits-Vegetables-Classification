@@ -26,6 +26,27 @@ Focuses on clean code, reproducibility, and clear experiment tracking.
 - `tests/`: unit tests  
 - `Dockerfile`: container for inference  
 
+Fruits-Vegetables-Classification/
+├── data/
+│   ├── raw/                    # original dataset
+│   ├── processed/              # resized/augmented images
+├── notebooks/                  # experiments, EDA
+│   └── training.ipynb
+├── src/                       # reusable code
+│   ├── dataset.py
+│   ├── model.py
+│   ├── train.py
+│   └── eval.py
+├── models/                    # checkpoints, final saved models
+│   └── best_model.pth
+├── outputs/                   # results (metrics, confusion matrices, logs)
+├── tests/                    # unit tests for data/model components
+├── Dockerfile                # containerize training/inference
+├── requirements.txt
+├── README.md
+└── LICENSE
+
+
 ---
 
 ## 🚀 Getting Started
