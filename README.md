@@ -2,7 +2,7 @@
 
 A production-ready Python project that trains, evaluates, and serves a CNN classifier to distinguish fruits vs vegetables from images.
 
-This repo demonstrates:<br><br>
+This repo demonstrates:<br>
 ✅ dataset preprocessing & augmentation  
 ✅ modular PyTorch model training  
 ✅ performance evaluation with metrics & confusion matrix  
